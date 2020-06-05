@@ -10,7 +10,8 @@ int main()
         n=n/10;
         count++;
     }
-    nd=n;
+
+    n=nd;
     while(n>0)
     {
         r=n%10;
